@@ -4,6 +4,8 @@ Develop study and job interview preparation
 # INDEX
 ### [1.memo](https://github.com/jogilsang/manual-java/tree/master/1.memo)
 ### [2.book](https://github.com/jogilsang/manual-java/tree/master/2.book)
+#### [2.1.자바 스카우터](https://github.com/jogilsang/manual-java/tree/master/2.book/2.1.자바 스카우터)
+#### [2.2.자바의 정석](https://github.com/jogilsang/manual-java/tree/master/2.book/2.2.자바의 정석)
 
 ---
 
