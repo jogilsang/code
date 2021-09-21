@@ -225,3 +225,8 @@ Double a -> Integer b
 a.intValue()
 b.doubleValue()
 ```
+
+### Coment
+```
+expected : <> but was : <>    
+```
