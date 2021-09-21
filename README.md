@@ -1,9 +1,9 @@
 # manual-java
 Develop study and job interview preparation
 
-# INDEX
-## [1.memo](https://github.com/jogilsang/manual-java/tree/master/1.memo)
-## [2.book](https://github.com/jogilsang/manual-java/tree/master/2.book)
+## INDEX
+### [1.memo](https://github.com/jogilsang/manual-java/tree/master/1.memo)
+### [2.book](https://github.com/jogilsang/manual-java/tree/master/2.book)
 - [2.1.자바스카우터](https://github.com/jogilsang/manual-java/tree/master/2.book/2.1.자바스카우터)
 - [2.2.자바의정석](https://github.com/jogilsang/manual-java/tree/master/2.book/2.2.자바의정석)
 
@@ -24,10 +24,6 @@ Develop study and job interview preparation
 
 ## 2. 통계자료
 - [2.1. jetbrains 통계](https://www.jetbrains.com/lp/devecosystem-2020/)
-
-
-
-
 
 
 
