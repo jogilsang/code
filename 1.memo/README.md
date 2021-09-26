@@ -10,6 +10,8 @@
    }
 ```
 
+javac Hello.java -encoding utf-8
+
 ```
 Java
 
