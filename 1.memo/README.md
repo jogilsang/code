@@ -12,6 +12,9 @@
 
 javac Hello.java -encoding utf-8
 
+CLASSPATH
+%JAVA_HOME%\lib;.
+
 ```
 Java
 
