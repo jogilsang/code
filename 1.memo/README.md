@@ -3,6 +3,7 @@
 ## INDEX
 - ### [init](#-%20init)
 - ### [setting](#-%20setting)
+- ### [build](#-%20build)
 - ### [contents](#-%20contents)
 - ### [etc](#-%20etc)
 - ### [입력(input)](#-%20input)
@@ -41,8 +42,7 @@ public class Main {
 
 ### - setting
 ```
-javac Hello.java -encoding utf-8
-java Hello
+*** 환경변수 설정 후 재부팅
 
 JAVA_HOME
 C:\PROGRA~1\Java\JDK18~1.0_1
@@ -52,6 +52,14 @@ JAVA_OPTIONS
 
 CLASSPATH
 %JAVA_HOME%\lib;.
+```
+
+### build
+```java
+javac Hello.java -encoding utf-8
+java Hello
+
+*** 패키지 이름은 없어야함
 ```
 
 ### - contents
