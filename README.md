@@ -7,6 +7,7 @@ Develop study and job interview preparation
 - [2.1.자바스카우터](https://github.com/jogilsang/manual-java/tree/master/2.book/2.1.자바스카우터)
 - [2.2.자바의정석](https://github.com/jogilsang/manual-java/tree/master/2.book/2.2.자바의정석)
 - [2.3.자바코딩의기술](https://github.com/jogilsang/manual-java/tree/master/2.book/2.3.자바코딩의기술)
+- [2.4.점프 투 자바](https://wikidocs.net/book/31)
 
 ---
 
