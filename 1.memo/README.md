@@ -6,34 +6,14 @@
 - ### [build](#-%20build)
 - ### [contents](#-%20contents)
 - ### [etc](#-%20etc)
-- ### [입력(input)](#-%20input)
-    - ### [일반 입력형식](#-%20일반%20입력형식)
-    - ### [공백 입력형식](#-%20공백%20입력형식)
-    - ### [2차원 배열 입력형식](#%202차원%20배열%20입력형식)
-    - ### [숫자입력 후 문자입력](#-%20숫자입력%20후%20문자입력)
-- ### [변환(conversion)](#-%20conversion)
-    - ### Double a -> Integer b
-    - ### String <-> String[] (문자열을 배열형태로 변환)
-    - ### arrayList <-> array , arrayList array, 리스트 배열 변환
-    - ### hashmap <-> array, hashmap array, 해시맵 배열 변환
-- ### [순환(cycle))](#-%20cycle)
-    - ### arrayList <-> array , arrayList array, 리스트 배열 변환
-    - ### hashmap <-> array, hashmap array, 해시맵 배열 변환
-    - ### 배열 리스트 반복문, 배열 전체순환
-    - ### 해시셋 전체순환(해시셋 반복자)
-    - ### 해시맵 순환(해시맵 반복)
-    - ### 배열 원소 탐색, 비교
-- ### [정렬(order)))](#-%20order)
-    - ### 2차원 배열, 첫번째 행 기준 오름차순 정렬
-    - ### arraylist 정렬, list 정렬, 리스트 정렬
-    - ### array 정렬, 배열 정렬
-- ### Coment
 
 ---
 
 ### - init
 ```java
+
 public class Main {
+    // psvm
     public static void main(String[] args) {
             System.out.println("Hello World!");
     }
@@ -60,6 +40,7 @@ javac Hello.java -encoding utf-8
 java Hello
 
 *** 패키지 이름은 없어야함
+*** javac -encoding UTF-8 -g:none -Xlint:deprecation FILENAME
 ```
 
 ### - contents
@@ -86,169 +67,25 @@ stack : 메소드,지역변수
 
 ---
 
-### - input
-- 일반적인 입력형식
-```java
-        // java
-        // 입력형식, 100 1000 50
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
-        // kotlin
-        // 입력형식
-        var str = readLine().toString()
-        var A = str.split(" ").get(0).toLong()// 1000
-        var B = str.split(" ").get(1).toLong() // 70
-        var C = str.split(" ").get(2).toLong() // 170
-```
-
-### - 공백 입력형식
-```java
-         // 입력형식
-        Scanner sc = new Scanner(System.in);
-
-        // ex : 3 5 6 2 4
-        // 첫 번째 행에 공백(space)을 구분자로 숫자가 주어진다
-        // 각 숫자는 한 자리 숫자로 주어진다 (0과 같거나 크고, 10보다 작은 숫자)
-        // 같은 숫자가 중복되어 나타나지 않는다
-        String input = sc.nextLine();
-        String[] splitInput = input.split(" ");
-        int[] arr = new int[splitInput.length];
-        
-        int count = 0;
-        for(String value : splitInput) {
-            arr[count++] = Integer.valueOf(value);
-        }
-```
-
-### - 2차원 배열 입력형식
-```java
-        // 입력형식
-        Scanner sc = new Scanner(System.in);
-
-        int a = sc.nextInt();
-
-        int[][] users = new int[a][2];
-
-        for(int p = 0 ; p < a ; p++) {
-            int b = sc.nextInt();
-            int c = sc.nextInt();
-
-            users[p][0] = b;
-            users[p][1] = c;
-        }
-```
-
-### - 숫자입력 후 문자입력 
-```java
-        // 입출력 받음
-        // (개행문자 제거해야 오류 발생안함)
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        sc.nextLine(); // 개행문자 제거
-        String b = sc.nextLine();
-```
 
 ---
-
-### - conversion
-```java
-// Double a -> Integer b
-    a.intValue()
-    b.doubleValue()
-
-// String <-> String[] (문자열을 배열형태로 변환)
-    String sentence = "asdfasdfasdfasfadsasf";
-// sentence.trim();
-    String[] words = sentence.split("");
-
-// arrayList <-> array , arrayList array, 리스트 배열 변환
-    long[] answer = {};
-    ArrayList<Long> answerList = new ArrayList<>();
-    answer = answerList.stream().mapToLong(p -> p.longValue()).toArray();
-    return answer;
-
-// hashmap <-> array, hashmap array, 해시맵 배열 변환
-    String[] arrayString = {};
-    int[] arrayInteger = {};
-    HashMap<String,Integer> hashMap = new HashMap();  
-    arrayString = hashMap.keySet().toArray(); // returns an array of keys
-    arrayInteger = hashMap.values().toArray(); // returns an array of values
-    Set <-> List, Set List, 셋 리스트 변환
-
-    Set dataSet = new HashSet();
-
-    List dataList = new ArrayList(dataSet); 
-```
 
 ---
 
 ## - cycle
 ### - 배열 리스트 반복문, 배열 전체순환
 ```java
-// 배열 리스트 반복문, 배열 전체순환
-        HashSet<String> hashSet = new HashSet<>();
-        Iterator<String> it = hashSet.iterator(); 
-        while (it.hasNext()) {
-            // value : it.next()
-        }​
 
-// 해시셋 전체순환(해시셋 반복자)
-        HashSet<String> hashSet = new HashSet<>();
-        Iterator<String> it = hashSet.iterator(); 
-        while (it.hasNext()) {
-            String temp = it.next();
-        }
 
-// 해시맵 순환(해시맵 반복)
-       HashMap<String,Integer> hashMap = new HashMap(); 
-
-       for( Map.Entry<String, Integer> elem : hashMap.entrySet() ){
-          String key = elem.getKey();  
-          int value = elem.getValue();
-       }
-
-// 배열 원소 탐색, 비교
-        boolean result = Arrays.stream(intArr)
-                .allMatch(a -> a%2 == 0);
-        System.out.println("2의 배수? " + result);
-
-        result = Arrays.stream(intArr)
-                .anyMatch(a -> a%3 == 0);
-        System.out.println("3의 배수가 하나라도 있나? " + result);
-
-        result = Arrays.stream(intArr)
-                .noneMatch(a -> a%3 == 0);
-        System.out.println("3의 배수가 없나? " + result);
 ```
 
 ---
 
 ## - order 
 ```java
-// 2차원 배열, 첫번째 행 기준 오름차순 정렬
-        int[][] users = new int[a][2];     
-  
-        Arrays.sort(users, new Comparator<int[]>() {
-            @Override
-            public int compare(final int[] entry1, final int[] entry2) {
-                final Integer time1 = entry1[0];
-                final Integer time2 = entry2[0];
-                return time1.compareTo(time2);
-            }
-        });
 
-// arraylist 정렬, list 정렬, 리스트 정렬
-        ArrayList<Integer> arrayList = new ArrayList<>();        
-        // 가장 높은순것에서 아래로, 내림차순으로 정렬
-        Collections.reverse(arrayList);
-        // 가장 낮은거에서 높은곳으로, 오름차순 정렬(ascending)
-        Collections.sort(arrayList);
 
-// array 정렬, 배열 정렬
-      int[] array = new int[]{1,2,5,4,3};
-      Arrays.sort(array);
+
 
 ```
 
