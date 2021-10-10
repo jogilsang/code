@@ -22,7 +22,9 @@ Develop study and job interview preparation
 - [1.6 sonarQube]()
     - [1.6.1 코드 품질 향상을 위한 지속적인 코드 인스펙션 SonarQube 소개](http://www.curvc.com/curvc/product/sonarsource/sonarqube)
     - [1.6.2 소나큐브 설치하기](https://dololgun.github.io/sonarqube/sonarqube/)
-
+### 2. 코드컨벤션
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Java Code Conventions](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf)
 
 ### 2. 통계자료
 - [2.1. jetbrains 통계](https://www.jetbrains.com/lp/devecosystem-2020/)
