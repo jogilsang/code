@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HTML5 기본 구조</title>
+    <link href="main.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <div id="app">
+        <p>{{message}}</p>
+    </div>
+
+    <div id="app_2">
+        <ol>
+            <li v-for="item in list">{{item}}</li>
+        </ol>
+    </div>
+
+    <div id="app_3">
+        <button v-on:click="handleClick">CLick</button>
+    </div>
+
+    <div id="app_4">
+        <p>{{message}}</p>
+        <p>{{count}}</p>
+        <input v-model="message">
+        <input v-bind:value="message">
+        <input v-model.number="count">
+    </div>
+
+    <div id="app_5">
+        <p v-if="show">사랑해</p>
+    </div>
+
+    <div id="app_6">
+        <button v-on:click="show=!show">변경하기</button>
+        <transition>
+            <p v-if="show">Hello Vue.js!</p>
+        </transition>
+    </div>
+
+    <div id="app_7">
+        <button v-on:click="increment">증가하기</button>
+        <p>{{count}}</p>
+    </div>
+
+    <div id="app_8">
+        <p v-bind:class="{child:isChild, 'is-active':isActive}">v-bind:class</p>
+        <p v-bind:style="{color:textColor, backgroundColor:bgColor}">v-bind:style</p>
+        <p v-bind:style="styleObject">styleObject</p>
+    </div>
+
+    <div id="app_9">
+        <div v-if="type === 'A'">
+            type A는
+        </div>
+        <div v-else-if="type === 'B'">
+            type B는
+        </div>
+        <div v-else>
+            모든 조건을 만족하지 않는 경우
+        </div>
+    </div>
+
+    <div id="app_10">
+        <p>test is good</p>
+        <p ref="hello">hello</p>
+        <!-- p 요소에 hello 붙이기 -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js">
+    </script>
+
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
