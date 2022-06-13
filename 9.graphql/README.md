@@ -6,6 +6,11 @@
     - 프리랜서 개발자 - graphql vs restapi
     - [시니어 코딩 - {Tips} GraphQL 실무에서 어떻게 쓸까?](https://www.youtube.com/watch?v=ISMVvVwmQUk)
     - [[B4] 프런트엔드를 위한 API 프로토콜, REST만이 답은 아니다. (with. gRPC, GraphQL)](https://www.youtube.com/watch?v=6C9zyLioTOU)
+- [doc](#doc)
+    - [GraphQL 뼈대를 이루는 네 가지 요소](https://www.huskyhoochu.com/graphql-basic/)
+    - [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
+    - [kakao-GraphQL 개념잡기](https://tech.kakao.com/2019/08/01/graphql-basic/)
+
 ---
 
 일반적인 REST API는 여러 URL에서 로드해야 하지만 GraphQL API는 앱에 필요한 모든 데이터를 단일 요청으로 가져옵니다.
