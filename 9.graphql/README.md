@@ -2,14 +2,19 @@
 ## INDEX
 - [Reference](#Reference)
 
-- [youtube](#youtube)
-    - 프리랜서 개발자 - graphql vs restapi
-    - [시니어 코딩 - {Tips} GraphQL 실무에서 어떻게 쓸까?](https://www.youtube.com/watch?v=ISMVvVwmQUk)
-    - [[B4] 프런트엔드를 위한 API 프로토콜, REST만이 답은 아니다. (with. gRPC, GraphQL)](https://www.youtube.com/watch?v=6C9zyLioTOU)
 - [doc](#doc)
     - [GraphQL 뼈대를 이루는 네 가지 요소](https://www.huskyhoochu.com/graphql-basic/)
     - [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
     - [kakao-GraphQL 개념잡기](https://tech.kakao.com/2019/08/01/graphql-basic/)
+    - [GraphQL: API 소비자에 대한 일관된 접근방식 수립](https://cloud.google.com/blog/ko/products/api-management/interacting-with-apis-rest-and-graphql)
+    - [Official docs](https://graphql.org/learn/)
+    - [Book graphql-in-action](https://www.manning.com/books/graphql-in-action)
+    - [Apollo GraphQl tutorial](https://www.apollographql.com/docs/tutorial/introduction)
+    - [frontendmasters Introduction to GraphQL](https://frontendmasters.com/courses/graphql/)
+- [youtube](#youtube)
+    - 프리랜서 개발자 - graphql vs restapi
+    - [시니어 코딩 - {Tips} GraphQL 실무에서 어떻게 쓸까?](https://www.youtube.com/watch?v=ISMVvVwmQUk)
+    - [[B4] 프런트엔드를 위한 API 프로토콜, REST만이 답은 아니다. (with. gRPC, GraphQL)](https://www.youtube.com/watch?v=6C9zyLioTOU)
 
 ---
 
