@@ -11,6 +11,9 @@
     - [Book graphql-in-action](https://www.manning.com/books/graphql-in-action)
     - [Apollo GraphQl tutorial](https://www.apollographql.com/docs/tutorial/introduction)
     - [frontendmasters Introduction to GraphQL](https://frontendmasters.com/courses/graphql/)
+- [starwarz]
+    - https://github.com/apollographql/starwars-server
+    - https://www.back4app.com/database/davimacedo/swapi-star-wars-api/graphql-playground
 - [youtube](#youtube)
     - 프리랜서 개발자 - graphql vs restapi
     - [시니어 코딩 - {Tips} GraphQL 실무에서 어떻게 쓸까?](https://www.youtube.com/watch?v=ISMVvVwmQUk)
