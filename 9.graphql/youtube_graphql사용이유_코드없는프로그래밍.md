@@ -1,8 +1,18 @@
 
+<<<<<<< HEAD
 
 - graphQL 사용 이유 - 코드없는 프로그래밍
 - https://www.youtube.com/watch?v=7G6lxhdxDY0
 ```
+=======
+### graphQL 사용 이유 - 코드없는 프로그래밍
+- https://www.youtube.com/watch?v=7G6lxhdxDY0
+```
+
+일반적인 REST API는 여러 URL에서 로드해야 하지만 GraphQL API는 앱에 필요한 모든 데이터를 단일 요청으로 가져옵니다.
+
+
+>>>>>>> 0e57d4f3b654483eef33b0fd8d63039816465b5f
 graphql 이란 rest
 http프로토콜 인터페이스
 클라이언트에서 서버단으로 데이터를 요청할 때
