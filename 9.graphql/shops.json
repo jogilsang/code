@@ -1,0 +1,56 @@
+curl -X GET \
+  'https://gsneotekMall.com/api/admin/store' \
+  -H 'Authorization: Bearer {access_token}' \
+  -H 'Content-Type: application/json'
+
+{
+    "total" : 2,
+    "services": [ {"name" : "ec2"},{"name" : "s3"}]       
+}
+    
+{
+    "date" : 20220601,
+    "totalPayment": 1000000000
+}
+
+{
+    "store": {
+        "shop_no": 1,
+        "shop_name": "GSneotekMall",
+        "mall_id": "gsneotekMall",
+        "base_domain": "gsneotekMall.com",
+        "primary_domain": "gsneotekMall.com",
+        "company_registration_no": "000-00-000000",
+        "company_name": "My Shopping Mall",
+        "president_name": "jogilsang",
+        "company_condition": "MSP",
+        "company_line": "Cloud Product",
+        "country": "Korea",
+        "country_code": "KR",
+        "zipcode": "00000",
+        "address1": "Guro, Republic of Korea",
+        "address2": "anywhere",
+        "phone": "02-0000-0000",
+        "fax": "02-0000-0000",
+        "email": "chogilsang@gsneotek.com",
+        "notification_only_email": "chogilsang@gsneotek.com",
+        "mall_url": "http://gsneotekMall.com",
+        "mail_order_sales_registration": "T",
+        "mail_order_sales_registration_number": "구로 제 00-000-000호",
+        "missing_report_reason_type": "Preparing for Register",
+        "missing_report_reason": "---",
+        "about_us_contents": "<b>---</b>",
+        "customer_service_phone": "02-0000-0000",
+        "customer_service_email": "admin@korea.com",
+        "customer_service_fax": "02-0000-0000",
+        "customer_service_sms": "02-0000-0000",
+        "customer_service_hours": "9:00 AM ~ 5:00 PM",
+        "privacy_officer_name": "jogilsang",
+        "privacy_officer_position": "Manager",
+        "privacy_officer_department": "CloudTeam",
+        "privacy_officer_phone": "02-0000-0000",
+        "privacy_officer_email": "sample@sample.com",
+        "contact_us_mobile": "T",
+        "contact_us_contents": "Service Information"
+    }
+}

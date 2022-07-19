@@ -1,0 +1,24 @@
+# Response
+# Server -> Client
+
+{
+  "allPersons": [
+    { "name": "아이유" },
+    { "name": "설현" },
+    { "name": "장원영" }
+  ]
+}
+
+{
+    "allPersons": [
+      { 
+          "name": "장원영",
+          "age": "19",
+          "posts" : [
+              {
+                 "title" : "IVE의 멤버로 인스타 팔로워는 500만명"   
+              },
+          ]
+      }
+    ]
+  }
