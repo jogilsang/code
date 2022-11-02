@@ -42,3 +42,11 @@ my $match = $target =~ /([A-Z]*)-([1-9]?[0-9]*)/g;
 ```
 ^(\s).*alert.*(OMS).*(\);)
 ```
+
+### 메세지 끝에 구분자 이하 (,) 뒤에 잘라내기
+`EX : HTTP 5XX error code is accurring \n/n,in the ALBs below. \nResource Type : ELB app/elb-idp/asdfsadfsadfasf, k8swef23238asdfasdf`
+```
+^HTTP.*\b
+```
+
+
